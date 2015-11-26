@@ -1,0 +1,27 @@
+{
+  "name": "gulp-candor",
+  "version": "0.0.1",
+  "description": "The official candor gulp plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3oath/gulp-candor.git"
+  },
+  "keywords": [
+    "candor",
+    "gulp",
+    "plugin",
+    "html",
+    "gulp-plugin",
+    "gulpplugin"
+  ],
+  "author": "Tristan Strathearn <r3oath@protonmail.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r3oath/gulp-candor/issues"
+  },
+  "homepage": "https://github.com/r3oath/gulp-candor#readme"
+}
