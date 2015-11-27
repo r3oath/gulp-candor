@@ -23,19 +23,15 @@ module.exports = function (options) {
             return cb(null, file);
         }
 
-        if (path.extname(file.path) === '.cdor') {
-            return cb(null, file);
-        }
-
         try {
             var result = candor.parse(file.contents.toString('utf8'));
 
             file.path = rext(file.path, '.' + opts.fileType);
-            file.contents = new Buffer(res.result);
+            file.contents = new Buffer(result);
 
             return cb(null, file);
         } catch (err) {
-            return cb(new gutil.PluginError(PLUGIN_NAME, err));
+            return cb(new gutil.PluginError(PLUGIN_NAME, err.message));
         }
     });
 };
