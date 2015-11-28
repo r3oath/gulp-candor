@@ -1,6 +1,6 @@
 {
   "name": "gulp-candor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The official candor gulp plugin.",
   "main": "index.js",
   "scripts": {
